@@ -1,4 +1,6 @@
 ![Language](https://img.shields.io/badge/Language-C%2B%2B-blue)
+![HDL](https://img.shields.io/badge/Language-HDL-orange)
+![JACK](https://img.shields.io/badge/Language-JACK-green)
 ![Progress](https://img.shields.io/badge/Progress-0%25-green)
 # Building a Modern Computer from First Principles
 ### My Nand2Tetris Journey

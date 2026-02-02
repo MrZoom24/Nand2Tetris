@@ -7,11 +7,11 @@ CHIP Or8Way {
     OUT out;
 
     PARTS:
-    Or(a= in[0], b= in[1], out= temp1);
-    Or(a= temp1, b= in[2], out= temp2);
-    Or(a= temp2, b= in[3], out= temp3);
-    Or(a= temp3, b= in[4], out= temp4);
-    Or(a= temp4, b= in[5], out= temp5);
-    Or(a= temp5, b= in[6], out= temp6);
-    Or(a= temp6, b= in[7], out= out);
+    Or(a= in[0], b= in[1], out= tempA1);
+    Or(a= in[2], b= in[3], out= tempA2);
+    Or(a= in[4], b= in[5], out= tempA3);
+    Or(a= in[6], b= in[7], out= tempA4);
+    Or(a= tempA1, b= tempA2, out= tempB1);
+    Or(a= tempA3, b= tempA4, out= tempB2);
+    Or(a= tempB1, b= tempB2, out= out);
 }
